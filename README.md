@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=web-lab-2+var-99090)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=web-lab-2+var-99090)]([https://git.io/typing-svg](https://github.com/ArslanEfimov/web-lab-2/))
 
 ![Graph pic](src/main/webapp/images/graphic.png)
 
