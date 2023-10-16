@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <servlet>
+    <servlet-name>СontrollerServlet</servlet-name>
+        <servlet-class>com.arslanefimov.lab2.servlets.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>СontrollerServlet</servlet-name>
+        <url-pattern>/controller</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>RedirectFilter</filter-name>
+        <filter-class>com.arslanefimov.lab2.filters.RedirectFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>RedirectFilter</filter-name>
+        <url-pattern>/controller</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>AreaCheckServlet</servlet-name>
+        <servlet-class>com.arslanefimov.lab2.servlets.AreaCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AreaCheckServlet</servlet-name>
+        <url-pattern>/area_check</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClearDataServlet</servlet-name>
+        <servlet-class>com.arslanefimov.lab2.servlets.ClearDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClearDataServlet</servlet-name>
+        <url-pattern>/clear_data</url-pattern>
+    </servlet-mapping>
+</web-app>
