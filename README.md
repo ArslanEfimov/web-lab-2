@@ -1,5 +1,7 @@
-# web-lab-2 #99090
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=web-lab-2+var-99090)](https://git.io/typing-svg)
+
 ![Graph pic](src/main/webapp/images/graphic.png)
+
 Разработать веб-приложение на базе сервлетов и JSP, определяющее попадание точки на координатной плоскости в заданную область.
 
 **Приложение должно быть реализовано в соответствии с шаблоном MVC и состоять из следующих элементов:**
